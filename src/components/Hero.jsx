@@ -37,23 +37,22 @@ const Hero = () => {
       className="relative h-screen min-h-[800px] bg-dark-bg overflow-hidden flex items-center justify-center font-sans"
       style={{ perspective: 1200 }}
     >
-      {/* Main Avatar & Glow */}
+      {/* Glow behind Avatar */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
-        {/* Glow behind Avatar */}
         <div className="absolute top-[30%] left-1/2 -translate-x-1/2 w-[400px] h-[400px] bg-brand-primary rounded-full blur-[150px] opacity-30 mix-blend-screen"></div>
-        
-        {/* The 3D Avatar Image with Parallax Wrapper */}
-        <motion.div
-          style={{ 
-            x: useTransform(smoothX, [-500, 500], [-30, 30]),
-            y: useTransform(smoothY, [-500, 500], [-30, 30]),
-            transformStyle: "preserve-3d"
-          }}
-          className="relative z-20 w-[350px] md:w-[450px] lg:w-[650px] aspect-square translate-y-24 lg:translate-y-32 scale-110"
-        >
-          <Avatar3D />
-        </motion.div>
       </div>
+
+      {/* 3D Avatar Robot in Top Right Area */}
+      <motion.div
+        style={{ 
+          x: useTransform(smoothX, [-500, 500], [-30, 30]),
+          y: useTransform(smoothY, [-500, 500], [-30, 30]),
+          transformStyle: "preserve-3d"
+        }}
+        className="pointer-events-none absolute right-[5%] lg:right-[10%] top-[10%] md:top-[15%] lg:top-[5%] z-20 w-[280px] h-[280px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]"
+      >
+        <Avatar3D />
+      </motion.div>
 
       {/* Left Text */}
       <motion.div 
@@ -118,7 +117,7 @@ const Hero = () => {
       </motion.div>
 
       {/* Resume Button */}
-      <a href="/Resume.pdf" download="Abhishek_Singh_Resume.pdf" className="absolute right-6 md:right-12 bottom-8 flex items-center space-x-3 text-gray-500 font-bold tracking-widest uppercase hover:text-white transition-colors cursor-pointer z-30 group">
+      <a href="/CV1 Final.pdf" download="Abhishek_Singh_Resume.pdf" className="absolute right-6 md:right-12 bottom-8 flex items-center space-x-3 text-gray-500 font-bold tracking-widest uppercase hover:text-white transition-colors cursor-pointer z-30 group">
         <span className="text-xl">Resume</span>
         <FileText size={32} className="group-hover:text-brand-primary transition-colors" />
       </a>

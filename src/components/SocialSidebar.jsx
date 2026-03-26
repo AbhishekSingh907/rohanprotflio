@@ -15,7 +15,7 @@ const SocialSidebar = () => {
       initial={{ x: -50, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ delay: 0.5, duration: 0.5 }}
-      className="fixed left-0 top-1/2 -translate-y-1/2 z-40 hidden md:flex flex-col gap-6 p-6"
+      className="fixed left-0 top-[35%] -translate-y-1/2 z-40 hidden md:flex flex-col gap-6 p-6"
     >
       <div className="w-px h-24 bg-gradient-to-b from-transparent to-brand-primary/30 mx-auto mb-2"></div>
       {socials.map((social, index) => (
