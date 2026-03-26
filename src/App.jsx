@@ -66,10 +66,10 @@ function App() {
           <SocialSidebar />
           <main className="md:pl-16 relative z-10">
             <Hero />
-            <Services />
-            <Experience />
             <About />
             <Skills />
+            <Services />
+            <Experience />
             <Projects />
             <Certifications />
             <Contact />
