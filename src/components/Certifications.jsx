@@ -11,6 +11,12 @@ const Certifications = () => {
       link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=5B2C8D3640320763CF29D2B55F0D3534E6D3897D6A21FCAC51541300F5B23AEE"
     },
     {
+      title: "Oracle Cloud Infrastructure 2025 Certified Foundations Associate",
+      issuer: "Oracle",
+      icon: <Award className="text-brand-primary" size={28} />,
+      link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=E08BBC7CC58CF0EE3DCE1703DB132A7AE5F523EC672EF7DB744FCF47F4EC7C3B"
+    },
+    {
       title: "Master Generative AI & AI Tools",
       issuer: "Udemy",
       icon: <Award className="text-brand-primary" size={28} />,
@@ -27,6 +33,12 @@ const Certifications = () => {
       issuer: "Summer Training Program (Grade: A++)",
       icon: <CheckCircle className="text-brand-primary" size={28} />,
       link: "https://www.lpu.in/skilldevelopment/"
+    },
+    {
+      title: "Types of Conflict",
+      issuer: "University of California, Irvine (Coursera)",
+      icon: <Award className="text-brand-primary" size={28} />,
+      link: "https://coursera.org/verify/LDRYW9STDXNC"
     }
   ];
 
