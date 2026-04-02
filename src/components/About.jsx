@@ -128,7 +128,7 @@ const About = () => {
               </div>
               <div className="flex items-start space-x-4 md:col-span-2">
                 <div className="w-2 h-2 bg-brand-primary rounded-full mt-2 shadow-[0_0_10px_#A855F7] shrink-0"></div>
-                <span>Content Writer at BrainMaster Club</span>
+                <span>Founder of BrainMaster Club</span>
               </div>
             </div>
           </motion.div>
