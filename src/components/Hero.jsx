@@ -117,10 +117,10 @@ const Hero = () => {
       </motion.div>
 
       {/* Resume Button */}
-      <div className="absolute right-6 md:right-12 bottom-8 flex items-center space-x-3 text-gray-500 font-bold tracking-widest uppercase hover:text-white transition-colors cursor-pointer z-30 group" onClick={() => alert("Resume will be available soon!")}>
-        <span className="text-xl">Resume</span>
-        <FileText size={32} className="group-hover:text-brand-primary transition-colors" />
-      </div>
+      <a href="/ROHANUPDATEDCV.pdf" download="Rohan_Singh_CV.pdf" className="absolute right-6 md:right-12 bottom-8 flex items-center space-x-3 text-gray-500 font-black tracking-widest uppercase hover:text-white transition-colors cursor-pointer z-30 group">
+        <span className="text-3xl md:text-4xl">Resume</span>
+        <FileText size={40} className="group-hover:text-brand-primary transition-colors" />
+      </a>
 
     </section>
   );
