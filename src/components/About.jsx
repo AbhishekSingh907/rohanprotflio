@@ -30,7 +30,7 @@ const About = () => {
               <div className="relative group w-full max-w-[400px]">
                 <div className="absolute -inset-2 bg-gradient-to-r from-brand-primary to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-60 transition duration-1000 group-hover:duration-200"></div>
                 <img 
-                  src="/profile.png" 
+                  src="/profile.png?v=2" 
                   alt="Profile" 
                   className="relative rounded-2xl w-full object-cover border border-white/10 shadow-2xl z-10 grayscale-[20%] group-hover:grayscale-0 transition-all duration-500"
                 />

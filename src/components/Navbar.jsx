@@ -24,12 +24,12 @@ const Navbar = () => {
       <div className="container mx-auto px-6 lg:px-16 flex flex-col md:flex-row justify-between items-center text-xs sm:text-sm font-bold tracking-widest text-gray-400">
         <div className="w-full md:w-1/3 mb-4 md:mb-0 flex justify-center md:justify-start">
           <a href="#" className="text-xl font-black tracking-widest text-white uppercase hover:text-brand-primary transition-colors">
-            Abhishek.
+            Rohan.
           </a>
         </div>
         <div className="hidden md:flex w-full md:w-1/3 text-center justify-center items-center lowercase hover:text-white transition-colors">
-          <a href="mailto:abhisheksingh639328@gmail.com">
-            abhisheksingh639328@gmail.com
+          <a href="mailto:rohansingh639328@gmail.com">
+            rohansingh639328@gmail.com
           </a>
         </div>
         <div className="w-full md:w-1/3 flex justify-center md:justify-end space-x-6 sm:space-x-8 lg:space-x-12">

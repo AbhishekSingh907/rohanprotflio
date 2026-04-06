@@ -32,7 +32,7 @@ const Contact = () => {
       const data = await response.json();
 
       if (data.success) {
-        setResult("Thank you! Your message has been sent to Abhishek.");
+        setResult("Thank you! Your message has been sent to Rohan.");
         setIsSuccess(true);
         event.target.reset();
       } else {
@@ -81,8 +81,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-xs text-gray-500 font-bold uppercase tracking-widest mb-1">Email</h4>
-                  <a href="mailto:abhisheksingh639328@gmail.com" className="text-lg font-bold text-white hover:text-brand-primary transition-colors">
-                    abhisheksingh639328@gmail.com
+                  <a href="mailto:rohansingh639328@gmail.com" className="text-lg font-bold text-white hover:text-brand-primary transition-colors">
+                    rohansingh639328@gmail.com
                   </a>
                 </div>
               </div>

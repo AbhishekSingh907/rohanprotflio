@@ -34,7 +34,7 @@ const Projects = () => {
       date: "Current",
       description: "An app to help navigate a 600 acre college campus by locating shops and services in real-time.",
       tech: ["Web", "Mobile", "Maps API"],
-      links: { github: "https://github.com/AbhishekSingh907/College-Map-App", live: null },
+      links: { github: "https://github.com/RohanSingh907/College-Map-App", live: null },
       image: "https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=600&auto=format&fit=crop"
     },
     {
@@ -42,7 +42,7 @@ const Projects = () => {
       date: "March 2025",
       description: "A route planning application that calculates the shortest paths between destinations using graph algorithms.",
       tech: ["JavaScript", "EJS", "C++"],
-      links: { github: "https://github.com/AbhishekSingh907/Skyroute", live: "https://skyroute-black.vercel.app" },
+      links: { github: "https://github.com/RohanSingh907/Skyroute", live: "https://skyroute-black.vercel.app" },
       image: "/skyroute_map.png"
     },
     {
@@ -50,7 +50,7 @@ const Projects = () => {
       date: "March 2025",
       description: "An agriculture product and farming agent booking platform that connects farmers with agents. Features crop listings and profile management.",
       tech: ["React", "Tailwind", "Node.js"],
-      links: { github: "https://github.com/AbhishekSingh907", live: "https://agri-booking.vercel.app" },
+      links: { github: "https://github.com/RohanSingh907", live: "https://agri-booking.vercel.app" },
       image: "/agri_booking.png"
     }
   ];

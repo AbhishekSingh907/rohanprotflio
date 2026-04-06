@@ -4,8 +4,8 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const SocialSidebar = () => {
   const socials = [
-    { icon: <FaGithub size={32} />, url: 'https://github.com/AbhishekSingh907', label: 'GitHub' },
-    { icon: <FaLinkedin size={32} />, url: 'https://linkedin.com/in/abhishek-singh907', label: 'LinkedIn' },
+    { icon: <FaGithub size={32} />, url: 'https://github.com/RohanSingh907', label: 'GitHub' },
+    { icon: <FaLinkedin size={32} />, url: 'https://linkedin.com/in/rohan-singh907', label: 'LinkedIn' },
     { icon: <FaTwitter size={32} />, url: 'https://x.com/ABHISHE71635291', label: 'Twitter' },
     { icon: <FaInstagram size={32} />, url: 'https://instagram.com/', label: 'Instagram' },
   ];

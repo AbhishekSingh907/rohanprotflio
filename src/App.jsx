@@ -42,7 +42,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               className="text-2xl font-black tracking-widest text-white uppercase text-gradient mb-8"
             >
-              Abhishek.
+              Rohan.
             </motion.div>
             <div className="w-64 h-1 bg-dark-border rounded-full overflow-hidden relative">
               <motion.div

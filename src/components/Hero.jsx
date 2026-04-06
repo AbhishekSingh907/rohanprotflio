@@ -78,7 +78,7 @@ const Hero = () => {
               animate={{ opacity: 1, z: 0, rotateX: 0 }} 
               transition={{ duration: 0.4, type: "spring", bounce: 0.6, delay: 0.6 }}
             >
-              Abhishek
+              Rohan
             </motion.span>
             <br />
             <motion.span 
